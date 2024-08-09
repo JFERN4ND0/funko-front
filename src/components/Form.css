@@ -1,0 +1,31 @@
+.form-label {
+  font-size: 18px;
+}
+
+.form-input {
+  font-size: 18px;
+}
+
+.div-user {
+  margin-top: 20px;
+}
+
+.div-user,
+.div-pass {
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.btn-login {
+  width: 30%;
+  background: rgb(9, 44, 58);
+  border: none;
+  padding: 0.8rem;
+  margin: 1em, 5em;
+  /*margin-bottom: 1em; */
+}
