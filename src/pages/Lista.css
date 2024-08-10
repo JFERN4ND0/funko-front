@@ -1,4 +1,4 @@
-.table-funkos {
+.vista__tabla {
   background-color: rgba(75, 170, 99, 0.747);
   padding: 3em;
 }
@@ -7,4 +7,21 @@
   background-color: rgba(96, 96, 133, 0.575);
   border: 1px solid black;
   border-spacing: 51rem;
+}
+
+.head__list {
+  /* background-color: blueviolet; */
+  padding: 10px;
+}
+
+.filtro {
+  width: 200px;
+  font-size: 15px;
+}
+
+.btn_act {
+  padding: 10px;
+  margin: 1em;
+  width: 100px;
+  font-size: 13px;
 }

@@ -8,6 +8,7 @@ import Menu from "./pages/Menu.tsx";
 import Lista from "./pages/Lista.tsx";
 import AgregarView from "./pages/AgregarView.tsx";
 import VentasView from "./pages/VentasView.tsx";
+import RegistroView from "./pages/RegistroView.tsx";
 
 const routes = [
   {
@@ -23,17 +24,17 @@ const routes = [
     element: <Lista />,
   },
   {
-    path: "/agregar",
+    path: "/agregarFunko",
     element: <AgregarView />,
   },
   {
     path: "/venta",
     element: <VentasView />,
   },
-  // {
-  //   path: "/registro",
-  //   element: AgregarView",
-  // },
+  {
+    path: "/registroVentas",
+    element: <RegistroView />,
+  },
 ];
 
 const router = createBrowserRouter(routes);

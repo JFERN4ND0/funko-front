@@ -1,19 +1,13 @@
-import { Link } from "react-router-dom";
-import "./Lista.css";
+import "./Registro.css";
 
-function Lista() {
+function RegistroView() {
   return (
     <div className="vista__tabla">
       <div className="head__list">
         <input className="filtro"></input>
-        <button type="button" className="btn btn_act btn_filtro">
-          Filtrar
+        <button type="button" className="btn btn_act btn_agregar">
+          FILTRAR
         </button>
-        <Link to={"/agregarFunko"}>
-          <button type="button" className="btn btn_act btn_agregar">
-            agregar
-          </button>
-        </Link>
       </div>
       <table className="table-funkos">
         <thead>
@@ -44,4 +38,4 @@ function Lista() {
   );
 }
 
-export default Lista;
+export default RegistroView;
