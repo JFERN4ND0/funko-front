@@ -16,7 +16,7 @@ function Form() {
           id="exampleInputPassword1"
         />
       </div>
-      <Link to={"/menu/:id"}>
+      <Link to={"/menu"}>
         <button type="submit" className="btn btn-login">
           Iniciar
         </button>

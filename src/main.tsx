@@ -4,8 +4,10 @@ import App from "./App.tsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Menu from "./pages/menu.tsx";
+import Menu from "./pages/Menu.tsx";
 import Lista from "./pages/Lista.tsx";
+import AgregarView from "./pages/AgregarView.tsx";
+import VentasView from "./pages/VentasView.tsx";
 
 const routes = [
   {
@@ -13,17 +15,25 @@ const routes = [
     element: <App />,
   },
   {
-    path: "/menu/:id",
+    path: "/menu",
     element: <Menu />,
   },
   {
-    path: "/lista/:id",
+    path: "/lista",
     element: <Lista />,
   },
   {
-    path: "/agregar/:id",
-    element: <Menu />,
+    path: "/agregar",
+    element: <AgregarView />,
   },
+  {
+    path: "/venta",
+    element: <VentasView />,
+  },
+  // {
+  //   path: "/registro",
+  //   element: AgregarView",
+  // },
 ];
 
 const router = createBrowserRouter(routes);

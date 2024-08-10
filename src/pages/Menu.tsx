@@ -4,16 +4,22 @@ import "./Menu.css";
 function Menu() {
   return (
     <>
-      <Link to={"/lista/:id"}>
+      <Link to={"/lista"}>
         <button type="button" className="btn btn-option">
           <img src="../fantasma.png" className="img_btn"></img>
           Lista
         </button>
       </Link>
-      <Link to={"/agregar/:id"}>
+      <Link to={"/ventas"}>
         <button type="button" className="btn btn-option">
           <img src="../fantasma.png" className="img_btn"></img>
-          Agregar
+          Ventas
+        </button>
+      </Link>
+      <Link to={"/ventasregistro"}>
+        <button type="button" className="btn btn-option">
+          <img src="../fantasma.png" className="img_btn"></img>
+          Registro
         </button>
       </Link>
     </>

@@ -1,3 +1,8 @@
+.form-login {
+  background-color: rgba(53, 53, 126, 0.514);
+  padding: 5em;
+}
+
 .form-label {
   font-size: 18px;
 }
