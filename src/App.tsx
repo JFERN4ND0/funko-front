@@ -1,8 +1,8 @@
 import "./App.css";
-import Form from "./components/Form";
+import Login from "./pages/Login";
 
 const App: React.FC = () => {
-  return <Form />;
+  return <Login />;
 };
 
 export default App;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import "./Form.css";
+import "./Login.css";
 
-function Form() {
+function Login() {
   return (
     <form className="form-login">
       <div className="div-user">
@@ -25,4 +25,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Login;

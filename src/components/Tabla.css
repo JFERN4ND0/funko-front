@@ -1,0 +1,10 @@
+.table__head {
+  background-color: rgba(96, 96, 133, 0.575);
+  border: 1px solid black;
+  border-spacing: 51rem;
+}
+
+.head__list {
+  /* background-color: blueviolet; */
+  padding: 10px;
+}

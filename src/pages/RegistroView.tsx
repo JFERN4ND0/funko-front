@@ -1,4 +1,14 @@
 import "./Registro.css";
+import Tabla from "../components/Tabla";
+
+const titulos = [
+  "Piezas",
+  "Imagen",
+  "Descripcion",
+  "PCompra",
+  "PVenta",
+  "Ganancia",
+];
 
 function RegistroView() {
   return (
@@ -9,31 +19,7 @@ function RegistroView() {
           FILTRAR
         </button>
       </div>
-      <table className="table-funkos">
-        <thead>
-          <tr>
-            <th scope="col" className="table__head">
-              Piezas
-            </th>
-            <th scope="col" className="table__head">
-              Personaje
-            </th>
-            <th scope="col" className="table__head">
-              Descripcion
-            </th>
-            <th scope="col" className="table__head">
-              PC
-            </th>
-            <th scope="col" className="table__head">
-              PV
-            </th>
-            <th scope="col" className="table__head">
-              GF
-            </th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <Tabla titulos={titulos}></Tabla>
     </div>
   );
 }

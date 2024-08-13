@@ -3,10 +3,11 @@
   width: 15em;
   margin: 2em;
   font-size: 15px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img_btn {
+  position: sticky;
   width: 100%;
 }
 
@@ -17,8 +18,7 @@
 }
 
 .btn__ventas:hover {
-  transform: rotateY(25deg);
-  /* transform: translate(0, -25%); */
+  transform: translateY(-25%);
   transition: ease;
 }
 
