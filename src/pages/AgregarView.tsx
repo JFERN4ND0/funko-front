@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./Agregar.css";
 
 function AgregarView() {
+  // pageActive = "login";
   return (
     <form className="form-login">
       <div className="div-user">

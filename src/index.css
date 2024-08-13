@@ -33,3 +33,27 @@ body {
   background-size: 4rem;
   /* background-size: 5.33rem; */
 }
+
+.header {
+  padding: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+}
+
+.fondo__link__menu {
+  background-color: aqua;
+}
+
+.img--link__menu {
+  /* background-color: rgba(61, 97, 143, 0.274); */
+  display: flex;
+  align-content: center;
+  z-index: 200;
+  position: absolute;
+  left: 30px;
+  top: 1rem;
+  width: 5%;
+}
