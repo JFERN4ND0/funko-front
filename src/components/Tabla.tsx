@@ -2,9 +2,10 @@ import "./Tabla.css";
 
 interface Props {
   titulos: String[];
+  cuerpo: String[][];
 }
 
-function Tabla({ titulos }: Props) {
+function Tabla({ titulos, cuerpo }: Props) {
   return (
     <table className="table-funkos">
       <thead>
@@ -16,7 +17,15 @@ function Tabla({ titulos }: Props) {
           ))}
         </tr>
       </thead>
-      <tbody></tbody>
+      <tbody>
+        {cuerpo.map((filas) => (
+          <tr>
+            {filas.map((campos) => (
+              <td>{campos}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
     </table>
   );
 }

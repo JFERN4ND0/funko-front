@@ -3,26 +3,29 @@ import "./Menu.css";
 
 function Menu() {
   return (
-    <>
-      <Link to={"/lista"}>
-        <button type="button" className="btn btn-option">
-          <img src="../fantasma3D.png" className="img_btn btn__lista"></img>
-          Lista
-        </button>
-      </Link>
-      <Link to={"/venta"}>
-        <button type="button" className="btn btn-option">
-          <img src="../fantasma3D.png" className="img_btn btn__ventas"></img>
-          Ventas
-        </button>
-      </Link>
-      <Link to={"/registroVentas"}>
-        <button type="button" className="btn btn-option">
-          <img src="../fantasma3D.png" className="img_btn btn__registro"></img>
-          Registro
-        </button>
-      </Link>
-    </>
+    <div className="menu-fondo">
+      <h2 className="menu-titulo">EL FANTASMA DE LOS FUNKOS</h2>
+      <div className="menu-fondo-btn">
+        <Link className="menu-fondo-btn" to={"/lista"}>
+          <button type="button" className="btn btn-option">
+            <img src="../Lista.png" className="img_btn btn__lista"></img>
+            <span className="btn-texto">Lista DE FUNKOS</span>
+          </button>
+        </Link>
+        <Link className="menu-fondo-btn" to={"/venta"}>
+          <button type="button" className="btn btn-option">
+            <img src="../Ventas.png" className="img_btn btn__ventas"></img>
+            <span className="btn-texto">Ventas</span>
+          </button>
+        </Link>
+        <Link className="menu-fondo-btn" to={"/registroVentas"}>
+          <button type="button" className="btn btn-option">
+            <img src="../Registro.png" className="img_btn btn__registro"></img>
+            <span className="btn-texto">Registro</span>
+          </button>
+        </Link>
+      </div>
+    </div>
   );
 }
 

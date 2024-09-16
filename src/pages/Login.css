@@ -1,13 +1,13 @@
-.form-login {
+.form__login {
   background-color: rgba(53, 53, 126, 0.514);
   padding: 5em;
 }
 
-.form-label {
+.form--label {
   font-size: 18px;
 }
 
-.form-input {
+.form--input {
   font-size: 18px;
 }
 
@@ -21,9 +21,10 @@
 }
 
 .btn {
-  border-radius: 15px;
+  /* border-radius: 15px; */
+  border-radius: 10px;
   text-transform: uppercase;
-  color: inherit;
+  color: black;
 }
 
 .btn-login {

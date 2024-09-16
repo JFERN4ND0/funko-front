@@ -1,10 +1,10 @@
-.table__head {
-  background-color: rgba(96, 96, 133, 0.575);
-  border: 1px solid black;
-  border-spacing: 51rem;
+.table-funkos {
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.head__list {
-  /* background-color: blueviolet; */
-  padding: 10px;
+.table__head {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
 }

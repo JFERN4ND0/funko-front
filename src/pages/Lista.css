@@ -1,16 +1,88 @@
 .vista__tabla {
-  background-color: rgba(75, 170, 99, 0.747);
-  padding: 3em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(8, 245, 67, 0);
 }
 
-.filtro {
-  width: 200px;
-  font-size: 15px;
+.head__list {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-lupa {
+  width: 3em;
+  height: 3em;
+  padding-top: 0.7em;
+  background-color: rgba(62, 123, 177, 0);
+  border: none;
+}
+
+.lupa {
+  transform: scale(3.5);
+}
+
+.filtrofondo {
+  display: flex;
+}
+
+.filtro-input {
+  width: 25em;
+  height: 3em;
+  border-radius: 1.5em;
+  padding: 0;
+  margin-right: 0.5em;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  border: none;
 }
 
 .btn_act {
   padding: 10px;
-  margin: 1em;
   width: 100px;
-  font-size: 13px;
+  height: 3em;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 700;
+}
+
+.logo-lista-fondo {
+  display: flex;
+  width: 10em;
+  height: 100%;
+  left: 0;
+  padding: 0 1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono-lista {
+  width: 100%;
+}
+
+.fondovista__lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 86%;
+  height: 100%;
+}
+
+.fondotabla__lista {
+  height: 80%;
+  width: 99%;
+  background-color: rgba(132, 101, 161, 0.767);
+  border-radius: 2.5em;
+  overflow: hidden;
 }

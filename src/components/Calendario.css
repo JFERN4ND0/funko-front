@@ -1,0 +1,52 @@
+.calendario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 75%;
+  margin: 1em;
+  padding: 0.6em;
+  border: solid 3px black;
+  border-radius: 2.5em;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.fondo--nombre__mes {
+  width: 6.5em;
+  height: 100%;
+  margin-bottom: -3em;
+  margin-left: -0.4em;
+}
+
+.nombre__mes {
+  color: black;
+  width: 8em;
+  height: 50%;
+  transform: rotate(-90deg) translateY(-2.5em) translateX(-1em);
+  font-size: 4.5em;
+}
+
+.dias__mes {
+  background-color: rgb(29, 117, 168);
+  width: 65em;
+  margin-left: -0.5em;
+  border-radius: 2.5em;
+  border: solid 2px black;
+  overflow: hidden;
+}
+
+.dia__semana {
+  width: 9.2em;
+  height: 2.5em;
+  color: lightsalmon;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px black;
+  font-weight: 650;
+}
+
+.dia {
+  width: 9.2em;
+  height: 5.05em;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px black;
+  color: aquamarine;
+}

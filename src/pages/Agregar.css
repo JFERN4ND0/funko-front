@@ -1,3 +1,24 @@
 .form__agregar {
   margin-right: 8px;
+  font-size: 18px;
+}
+
+.form--select {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.form--textarea {
+  font-size: 18px;
+  height: 5em;
+  width: 15em;
+}
+
+.form--label {
+  margin: 0.5em;
+  text-align: start;
+}
+
+.div--campo {
+  margin: 1em;
 }
