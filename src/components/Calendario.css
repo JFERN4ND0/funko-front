@@ -1,44 +1,45 @@
 .calendario {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  height: 75%;
-  margin: 1em;
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* height: 100%; */
+  width: 97%;
+  /* height: 30em; */
+  display: flex;
   padding: 0.6em;
-  border: solid 3px black;
-  border-radius: 2.5em;
-  overflow: hidden;
   background-color: rgb(255, 255, 255);
 }
 
 .fondo--nombre__mes {
   width: 6.5em;
-  height: 100%;
-  margin-bottom: -3em;
-  margin-left: -0.4em;
+  /* height: 100%; */
+  /* margin-bottom: -3em; */
+  margin-left: -0.8em;
+  background-color: rgb(255, 255, 255);
 }
 
 .nombre__mes {
   color: black;
   width: 8em;
   height: 50%;
-  transform: rotate(-90deg) translateY(-2.5em) translateX(-1em);
+  /* margin-left: 0.1em; */
+  /* transform: rotate(-90deg) translateY(-2.5em) translateX(-1em); */
+  transform: rotate(-90deg) translateY(-2.4em) translateX(-1em);
   font-size: 4.5em;
 }
 
 .dias__mes {
-  background-color: rgb(29, 117, 168);
-  width: 65em;
-  margin-left: -0.5em;
+  background-color: rgb(255, 255, 255);
+  width: 60em;
+  margin-right: -0.8em;
   border-radius: 2.5em;
-  border: solid 2px black;
+  border: solid 2px rgb(0, 0, 0);
   overflow: hidden;
 }
 
 .dia__semana {
   width: 9.2em;
   height: 2.5em;
-  color: lightsalmon;
-  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border: solid 1px black;
   font-weight: 650;
 }
@@ -48,5 +49,10 @@
   height: 5.05em;
   background-color: rgb(255, 255, 255);
   border: solid 1px black;
-  color: aquamarine;
+  color: rgb(0, 0, 0);
+}
+
+.cal {
+  color: black;
+  font-weight: 600;
 }
